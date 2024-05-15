@@ -45,7 +45,7 @@
         </mlSlotClasses>
         <name>PMO</name>
     </botMlDomain>
-    <botUser>ai-dev.raghu@wipro.com.dev</botUser>
+    <botUser>raghuraj@adx.devsandbox</botUser>
     <botVersions>
         <fullName>v1</fullName>
         <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
