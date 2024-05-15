@@ -4,6 +4,9 @@
         <label>dtest2</label>
         <name>dtest2</name>
     </botMlDomain>
+     <botVersions>
+        <fullName>v1</fullName>
+     </botVersions>
     <contextVariables>
         <dataType>Text</dataType>
         <developerName>ChatKey</developerName>
