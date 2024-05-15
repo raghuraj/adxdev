@@ -2654,7 +2654,7 @@ It’s about proving to them that your product is solution to the problem that m
             <botDialogGroup>FAQ_Section</botDialogGroup>
             <botSteps>
                 <botMessages>
-                    <message>A leave policy is a document that lays down the rules and regulations related to various types of leaves that an employee can avail of. 
+                    <message>A leave policy is a document that lays down the rules and regulations related to various types of leaves that an employee can avail of.
 
 A leave policy sets out the various types of leaves for different situations like a vacation, sickness, maternity etc</message>
                     <messageIdentifier>075bd593-ec92-3e40-22bd-c2317aa93300</messageIdentifier>
