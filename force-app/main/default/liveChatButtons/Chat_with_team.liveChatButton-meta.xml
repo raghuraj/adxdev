@@ -3,7 +3,7 @@
     <deployments/>
     <enableQueue>false</enableQueue>
     <isActive>true</isActive>
-    <label>SEI PMO Bot</label>
+    <label>Chat with team</label>
     <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
     <optionsHasChasitorIdleTimeout>false</optionsHasChasitorIdleTimeout>
     <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>

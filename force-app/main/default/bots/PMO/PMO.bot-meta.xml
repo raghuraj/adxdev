@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>PMO</label>
+        <mlIntents>
+            <developerName>Projects</developerName>
+            <label>Projects</label>
+        </mlIntents>
+        <mlIntents>
+            <description>project list</description>
+            <developerName>Project_List</developerName>
+            <label>Project List</label>
+            <mlIntentUtterances>
+                <language>en_US</language>
+                <utterance>project</utterance>
+            </mlIntentUtterances>
+        </mlIntents>
+        <mlIntents>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+        </mlIntents>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>einsteinbot_UserInfoCollection_Gather_info_from_user_Email_Addres19842506</developerName>
+            <extractionRegex>\b[\w\.\w]*+@\w+?\.[a-zA-Z]{2,3}\b</extractionRegex>
+            <extractionType>Pattern</extractionType>
+            <label>Email</label>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>einsteinbot_UserInfoCollection_Gather_info_from_user_Phone_Number68778349</developerName>
+            <extractionRegex>\b[+(\s]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\.\/0-9]*\b</extractionRegex>
+            <extractionType>Pattern</extractionType>
+            <label>Phone Number</label>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>new_story_task_subject</developerName>
+            <label>new_story_task_subject</label>
+        </mlSlotClasses>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>Project_Choice</developerName>
+            <label>Project Choice</label>
+        </mlSlotClasses>
+        <name>PMO</name>
+    </botMlDomain>
+    <botUser>raghuraj@adx.devsandbox</botUser>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ChatKey</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChatKey</developerName>
+        <label>Chat Key</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.ContactId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.LiveChatVisitorId</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>LiveChatTranscript</SObjectType>
+            <fieldName>LiveChatTranscript.Id</fieldName>
+            <messageType>WebChat</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <conversationChannelProviders>
+        <agentRequired>false</agentRequired>
+        <chatButtonName>PMO_Bot</chatButtonName>
+    </conversationChannelProviders>
+    <description>A bot from scratch.</description>
+    <label>PMO Bot</label>
+    <logPrivateConversationData>true</logPrivateConversationData>
+    <richContentEnabled>false</richContentEnabled>
+    <sessionTimeout>480</sessionTimeout>
+    <type>Bot</type>
+</Bot>
