@@ -86,10 +86,6 @@
         <developerName>RoutableId</developerName>
         <label>Routable Id</label>
     </contextVariables>
-    <conversationChannelProviders>
-        <agentRequired>false</agentRequired>
-        <chatButtonName>PMO_Bot</chatButtonName>
-    </conversationChannelProviders>
     <description>A bot from scratch.</description>
     <label>PMO Bot</label>
     <logPrivateConversationData>true</logPrivateConversationData>
