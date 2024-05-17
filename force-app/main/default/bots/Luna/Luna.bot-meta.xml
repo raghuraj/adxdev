@@ -188,7 +188,7 @@
         </mlSlotClasses>
         <name>Luna</name>
     </botMlDomain>
-    <botUser>luna062023214645.t4jjkc59z0b9@wipro.com.dev</botUser>
+    <botUser>raghuraj@adx.devsandbox</botUser>
     <contextVariables>
         <contextVariableMappings>
             <SObjectType>MessagingSession</SObjectType>
